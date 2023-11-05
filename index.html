@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/master.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&family=Rubik:ital,wght@1,600&family=Work+Sans:ital,wght@0,100;0,200;0,400;1,200;1,800&display=swap"
+    rel="stylesheet">
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!--start setting box-->
+  <div class="setting-box">
+    <div class="icons">
+      <i class='bx bxs-cog' style='color:rgb(5, 5, 75)'></i>
+    </div>
+    <div class="setting-content">
+      <div class="option-box">
+        <h4>Colors</h4>
+        <ul class="color-list">
+          <li class="active" data-color="#d6a70c"></li>
+          <li data-color="#ee7853"></li>
+          <li data-color="#e377f1 "></li>
+          <li data-color="#ffc400"></li>
+          <li data-color=" #ebfc02"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <div class="randomBackground">
+          <h4>Random Backgrounds</h4>
+          <span class="yes active" data-background="yes">Yes</span>
+          <span class="no" data-background="no">No</span>
+        </div>
+
+
+      </div>
+      <div class="option-box">
+        <div class="bulletsOption">
+          <h4>Show Bullets</h4>
+          <span class="yes active" data-display="show">Yes</span>
+          <span class="no" data-display="hide">No</span>
+        </div>
+
+
+      </div>
+      <button class="reset-option">Reset Option</button>
+    </div>
+
+  </div>
+  <!--end etting box-->
+  <!--start nav bullets-->
+  <div class="navBullets">
+    <div class="bullet" data-section=".about">
+      <div class="tooltip">About Us</div>
+    </div>
+    <div class="bullet" data-section=".skills">
+      <div class="tooltip">Our Skills</div>
+    </div>
+    <div class="bullet" data-section=".services">
+      <div class="tooltip">Services</div>
+    </div>
+    <div class="bullet" data-section=".timeLine">
+      <div class="tooltip">Projects</div>
+    </div>
+    <div class="bullet" data-section=".features">
+      <div class="tooltip">Features</div>
+    </div>
+
+  </div>
+  <div class="bullet"></div>
+  <div class="bullet"></div>
+  <div class="bullet"></div>
+  <div class="bullet"></div>
+  <div class="bullet"></div>
+
+  </div>
+  <!--end nav bullets-->
+  <!--start landing page-->
+  <div class="landingPage">
+    <div class="overlay">
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">
+            <span>DAWA</span> ALWAFA
+          </div>
+       <div class="links-container">
+        <ul class="links open">
+          <li><a href="#" class="active" data-section=".about">About Us</a></li>
+          <li><a href="#" data-section=".skills">Skills</a></li>
+          <li><a href="#" data-section=".services">Services</a></li>
+          <li><a href="#" data-section=".timeLine">Projects</a></li>
+          <li><a href="#" data-section=".features">Features</a></li>
+        </ul>
+        <button class="toggle-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+       </div>
+
+        </div>
+        <div class="description">
+          <h1>Daw Alwafa</h1>
+          <h2>Technical Services Contracting</h2>
+          <p>Our goal then and now is to provide quality on time Projects</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end landing page-->
+  <!--start about-->
+  <div class="about">
+    <div class="container">
+      <div class="info">
+        <h2>About Us</h2>
+        <p>DAW ALWAFA is one of the leading interior service providers in
+          UAE,specialized in turn-key Workspace Design and Interior
+          Design Fit-out works.The company has a reputation for sheer
+          dedication to crafting quality interiors With our skilled
+          professionals having extensive experience in the area and our
+          three decades of success, we set a new standard for our
+          competitors. </p>
+        <button class="but">Show More</button>
+      </div>
+      <div class="imageBox overlay">
+        <img src="/images/three-architects-front-building-with-big-windows.jpg" alt="">
+      </div>
+
+    </div>
+  </div>
+  <!--end about-->
+  <!--start our skills-->
+  <div class="skills">
+    <div class="overlay">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skillBox">
+          <div class="skillName">Meticulous Planning​</div>
+          <div class="skillProgess">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skillBox">
+          <div class="skillName">
+            Completion On Time</div>
+          <div class="skillProgess">
+            <span data-progress="85%"></span>
+          </div>
+        </div>
+        <div class="skillBox">
+          <div class="skillName">Perfect Execution</div>
+          <div class="skillProgess">
+            <span data-progress="65%"></span>
+          </div>
+        </div>
+        <div class="skillBox">
+          <div class="skillName">Affordable Prices</div>
+          <div class="skillProgess">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--end our skills-->
+  <!--start services-->
+  <div class="services">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="servicesBox">
+        <div class="cart">
+          <div class="cartImage">
+            <img src="/images/architecture-concept-with-blank-page-clipboard.jpg" alt="Image One">
+          </div>
+          <div class="desc">
+            <h3>Architecture Concept</h3>
+          </div>
+        </div>
+        <div class="cart">
+          <div class="cartImage">
+            <img src="/images/correcting-blueprint.jpg" alt="Image Two">
+          </div>
+          <div class="desc">
+            <h3>Correcting Blueprint</h3>
+          </div>
+        </div>
+        <div class="cart">
+          <div class="cartImage">
+            <img src="/images/crop-people-working-with-plans-near-laptop.jpg" alt="Image Three">
+          </div>
+          <div class="desc">
+            <h3>Crop People Working</h3>
+          </div>
+        </div>
+        <div class="cart">
+          <div class="cartImage">
+            <img src="/images/indoor-objects-company-background-papers.jpg" alt="Image Four">
+          </div>
+          <div class="desc">
+            <h3>Indoor Objects</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end services-->
+  <!--start timeline-->
+  <div class="timeLine">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="timeLineContent">
+        <div class="year">2018</div>
+        <div class="left">
+          <div class="content">
+            <h3>Commercial Properties</h3>
+            <P>We have a devoted specialist landscape designer
+              with many years of expertise in delivering
+              Landscaping Services in Dubai at DAW AL
+              WAFA . When it comes to modern landscape
+              design which is currently become very in-demand
+            </P>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+          <div class="content">
+            <h3>Real Estate</h3>
+            <P>DAW AL WAFA aluminum pergola lets you create an extra
+              living space outdoors. Are you looking for a welcoming lounge
+              to relax in with friends and family, a sheltered playroom for the
+              kids or a cozy place to relax whatever season? These modern
+              pergolas are adapted to your lifes</P>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="year">2017</div>
+        <div class="left">
+          <div class="content">
+            <h3>Commercial Properties</h3>
+            <P>We have a devoted specialist landscape designer
+              with many years of expertise in delivering
+              Landscaping Services in Dubai at DAW AL
+              WAFA . When it comes to modern landscape
+              design which is currently become very in-demand
+            </P>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="left">
+          <div class="content">
+            <h3>Commercial Properties</h3>
+            <P>We have a devoted specialist landscape designer
+              with many years of expertise in delivering
+              Landscaping Services in Dubai at DAW AL
+              WAFA . When it comes to modern landscape
+              design which is currently become very in-demand
+            </P>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end timeline-->
+  <!--start features-->
+  <div class="features">
+    <h2>Our Features</h2>
+    <div class="container ">
+      <div class="mainBox">
+        <div class="feat-box">
+          <img src="/images/flat-lay-arrangement-different-architectural-objects-with-copy-space.jpg">
+          <h4>Development</h4>
+          <p>we are professionals</p>
+        </div>
+        <div class="feat-box">
+          <img src="/images/building-1.webp">
+          <h4>Development</h4>
+          <p>we are professionals</p>
+        </div>
+        <div class="feat-box">
+          <img src="/images/indoor-objects-company-background-papers.jpg">
+          <h4>Development</h4>
+          <p>we are professionals</p>
+        </div>
+        <div class="feat-box">
+          <img src="/images/desk-arrangement-with-empty-notepad-with-copy-space.jpg">
+          <h4>Development</h4>
+          <p>we are professionals</p>
+        </div>
+        <div class="feat-box">
+          <img src="/images/correcting-blueprint.jpg">
+          <h4>Development</h4>
+          <p>we are professionals</p>
+        </div>
+        <div class="feat-box">
+          <img src="/images/building-glass-facade-during-daytime.jpg">
+          <h4>Development</h4>
+          <p>we are professionals</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end features-->
+  <script src="js/master.js"></script>
+</body>
+
+</html>
