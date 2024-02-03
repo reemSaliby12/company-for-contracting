@@ -204,7 +204,7 @@ body {
 /*start landing page*/
 .landingPage {
     min-height: 100VH;
-    background-image: url(/images/building-glass-facade-during-daytime.jpg);
+    background-image: url(../images/building-glass-facade-during-daytime.jpg);
     background-size: cover;
     position: relative;
 }
